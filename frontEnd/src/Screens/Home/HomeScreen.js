@@ -5,11 +5,6 @@ import BlockBody from "../../Components/Body/BlockBody";
 
 const HomeScreen = ({ dispatch, Logger, children  }) => {
 
-
-    const handleLogout = () => { //PEUT RENVOYER SUR L'ACCUEIL MAIS PAS NECESSAIRE CAR GERER PAR NAVIGATION
-        dispatch(logout());
-    };
-
     return (
 
         <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', backgroundColor: "var(--black)" }}>

@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import { connect } from 'react-redux';
-import {getUser} from "../../Api/User";
-import {logout} from "../../Redux/actions/authActions";
 
 const ControlsScreen = ({ dispatch, Logger  }) => {
 

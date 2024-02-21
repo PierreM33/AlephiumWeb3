@@ -15,9 +15,6 @@ const Navigation = ({ onPress }) => {
                 <NavLink to="/modal" style={{textDecoration: "none"}}>
                     <li><a className="lienMenu" onClick={ () => { onPress("login") }}>Connexion</a></li>
                 </NavLink>
-                <NavLink to="/modal" style={{textDecoration: "none"}}>
-                    <li><a className="lienMenu" onClick={ () => { onPress("register") }}>Inscription</a></li>
-                </NavLink>
             </ul>
             <div className="toggle">
                 <i className="fas fa-bars ouvrir"></i>
