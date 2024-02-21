@@ -1,0 +1,55 @@
+.technology-card {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #c2c2c2;
+}
+
+.technology-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.technology-details {
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+}
+
+.technology-resources {
+  display: flex;
+  justify-content: flex-start; /* aligne les ressources à l'extrémité */
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.technology-resource {
+  color: black;
+}
+
+
+.technology-time-upgrade {
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+}
+
+.upgrade-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 2;
+}
